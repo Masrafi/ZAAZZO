@@ -218,50 +218,6 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: MediaQuery.of(context).size.height / 30,
                 ),
-                // Container(
-                //   // height: displayWidth(context) * 1.4,
-                //   //height: MediaQuery.of(context).size.height / 10,
-                //   child: CarouselSlider(
-                //     items: [
-                //       Container(
-                //         height: 80,
-                //         child: Center(child: Text("One")),
-                //         color: Colors.grey,
-                //         width: 100,
-                //       ),
-                //       Container(
-                //         height: 80,
-                //         color: Colors.grey,
-                //         width: 100,
-                //         child: Center(child: Text("One")),
-                //       ),
-                //       Container(
-                //         height: 80,
-                //         color: Colors.grey,
-                //         width: 100,
-                //         child: Center(child: Text("One")),
-                //       ),
-                //       Container(
-                //         height: 80,
-                //         color: Colors.grey,
-                //         width: 100,
-                //         child: Center(child: Text("One")),
-                //       ),
-                //     ],
-                //     options: CarouselOptions(
-                //         // height: displayWidth(context) * 1.4,
-                //
-                //         viewportFraction: 0.4,
-                //         autoPlay: false,
-                //         enlargeCenterPage: true,
-                //         aspectRatio: 2.0,
-                //         onPageChanged: (index, reason) {
-                //           setState(() {
-                //             _current = index;
-                //           });
-                //         }),
-                //   ),
-                // ),
                 DailyDeals(),
                 SizedBox(
                   height: MediaQuery.of(context).size.height / 30,

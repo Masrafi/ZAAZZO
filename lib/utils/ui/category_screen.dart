@@ -73,7 +73,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
                       color: color.black.withOpacity(0.5),
                       size: MediaQuery.of(context).size.height / 30,
                     ),
-
                     Padding(
                       padding: EdgeInsets.only(
                         left: MediaQuery.of(context).size.height / 30,
@@ -99,16 +98,11 @@ class _CategoryScreenState extends State<CategoryScreen> {
                             ]),
                       ),
                     ),
-
                     Icon(
                       Icons.search,
                       color: color.black.withOpacity(0.6),
                       size: MediaQuery.of(context).size.height / 30,
                     ),
-                    // Image.asset(
-                    //   'assets/thumbnail.png',
-                    //   height: MediaQuery.of(context).size.height / 30,
-                    // )
                   ],
                 ),
                 SizedBox(
